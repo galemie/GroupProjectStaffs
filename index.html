@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="styles/style.css">
+
+
+<head>
+    <title>IP Calculator</title>
+</head>
+
+<body>
+    <h1>IP Address calculator</h1>
+</body>
+<a href=https://en.wikipedia.org/wiki/IP_address>IP Address</a>
+<input type='text' class='addr' id='q1'> .
+<input type='text' class='addr' id='q2'> .
+<input type='text' class='addr' id='q3'> .
+<input type='text' class='addr' id='q4'> /
+<input type='text' class='addr' id='cidr'>
+<button onclick='calculate();'>Calculate</button>
+<hr>
+<div class='result'>
+    <span class=label><a href=https://en.wikipedia.org/wiki/IP_address>IP Address :</a></span>
+    <span class=value id=resIP></span>
+</div>
+<div class='result'>
+    <span class=label><a href=https://en.wikipedia.org/wiki/Subnetwork>Subnet mask :</a></span>
+    <span class=value id=resMask></span>
+</div>
+<div class='result'>
+    <span class=label><a href=https://en.wikipedia.org/wiki/Network_address>Net Address :</a></span>
+    <span class=value id=resNet></span>
+</div>
+<div class='result'>
+    <span class=label><a href=https://en.wikipedia.org/wiki/Broadcast_address>Broadcast Address :</a></span>
+    <span class=value id=resBC></span>
+</div>
+<div class='result'>
+    <span class=label><a href=https://en.wikipedia.org/wiki/Classful_network>Standard Class :</a></span>
+    <span class=value id=resClass></span>
+</div>
+<div class='result'>
+    <span class=label><a href=https://en.wikipedia.org/wiki/Private_network>Range :</a></span>
+    <span class=value id=resRange></span>
+</div>
+<div class='result'>
+    <span class=label><a href=https://en.wikipedia.org/wiki/Binary_number>IP Binary :</a></span>
+    <span class=value id=resBinIP></span>
+</div>
+<div class='result'>
+    <span class=label><a href=https://en.wikipedia.org/wiki/Binary_number>Mask Binary :</a></span>
+    <span class=value id=resBinMask></span>
+</div>
+<div class='result'>
+    <span class=label><a href=https://en.wikipedia.org/wiki/Binary_number>Net Address Binary :</a></span>
+    <span class=value id=resBinNet></span>
+</div>
+<div class='result'>
+    <span class=label><a href=https://en.wikipedia.org/wiki/Binary_number>BC Address Binary :</a></span>
+    <span class=value id=resBinBC></span>
+</div>
+<script src="scripts/main.js"></script>
+</html>

@@ -1,0 +1,17 @@
+body {
+    font-family:monospace;
+    font-size:16px;
+    background-color: rgb(228, 230, 230);
+    
+    }
+    .addr {
+    width:30px;
+    }
+    .result {
+        
+        }
+        .result .label {
+        display:inline-block;
+        width:200px;
+        
+        }
