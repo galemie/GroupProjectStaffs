@@ -1,17 +1,18 @@
 body {
     font-family:monospace;
     font-size:16px;
-    background-color: rgb(228, 230, 230);
-    
+    background-color: rgb(92, 180, 180);
+    background-image: linear-gradient(69deg,lightblue, transparent);
     }
     .addr {
-    width:30px;
+    width:35px;
     }
     .result {
-        
+        border-bottom: 1px solid #6a6ade;
+        border-right: 1px solid #6a6ade;
         }
         .result .label {
         display:inline-block;
-        width:200px;
-        
+        width:250px;
+        font-size: larger;
         }
